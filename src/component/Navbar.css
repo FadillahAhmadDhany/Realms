@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.bg-p {
+  border: 0;
+  border-radius: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#c7ffab), to(#1e8af7));
+  background: linear-gradient(to right, #32755a, #08b872);
+
+}
+
+.bg-q {
+  border: 0;
+  border-radius: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#c7ffab), to(#1e8af7));
+  background: linear-gradient(to right, #215f46, #016a40);
+
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("./Image/test1.png");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  position: relative;
+  opacity: 75%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.collapse-content .fa.fa-heart:hover {
+  color: #f44336 !important;
+}
+.collapse-content .fa.fa-share-alt:hover {
+  color: #0d47a1 !important;
+}
